@@ -142,5 +142,13 @@
     "PictureUrl": "images/products/boot-ang1.png",
     "ProductTypeId": 3,
     "ProductBrandId": 1
+  },
+  {
+    "Name": "Alexsus LLC Baby Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 250,
+    "PictureUrl": "images/products/babybedding.jpeg",
+    "ProductTypeId": 4,
+    "ProductBrandId": 8
   }
 ]
