@@ -1,3 +1,5 @@
+/* The code provided is a C# class that represents a controller for handling HTTP requests related to
+products in an API. */
 using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Core.Interfaces;
@@ -31,7 +33,18 @@ namespace API.Controllers
 
 
         }
+        /// <summary>
+        /// The function retrieves a list of products based on specified parameters, including
+        /// pagination, and returns the result along with the total count of items.
+        /// </summary>
+        /// <param name="ProductSpecParams">ProductSpecParams is a class that contains various
+        /// parameters for filtering and sorting products. It is used to specify the criteria for
+        /// retrieving a list of products from the database.</param>
+        /// <returns>
+        /// The method is returning an ActionResult of type Pagination<ProductsToReturnDto>.
+        /// </returns>
         [HttpGet]
+        
         public async Task<ActionResult<Pagination<ProductsToReturnDto>>> GetProducts([FromQuery]ProductSpecParams productParams)
         {
             var spec = new ProductsWithTypesAndBrandsSpecification(productParams);
@@ -63,10 +76,18 @@ namespace API.Controllers
             return Ok(await _productBrandRepo.ListAllAsync());
         }
 
+        /// <summary>
+        /// The above function is an HTTP GET endpoint that returns a list of product types.
+        /// </summary>
+        /// <returns>
+        /// The method is returning an ActionResult containing an IReadOnlyList of ProductType objects.
+        /// </returns>
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
         {
             return Ok(await _productTypeRepo.ListAllAsync());
         }
+        
+      
     }
 }

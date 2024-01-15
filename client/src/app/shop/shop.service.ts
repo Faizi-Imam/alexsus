@@ -1,3 +1,5 @@
+/* The ShopService class is an Angular service that handles HTTP requests to retrieve products, brands,
+and types from an API. */
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Brand } from '../shared/models/brand';

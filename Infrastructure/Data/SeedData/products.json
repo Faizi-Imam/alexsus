@@ -144,11 +144,67 @@
     "ProductBrandId": 1
   },
   {
-    "Name": "Alexsus LLC Baby Beds",
+    "Name": "Alxesus Red Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 180,
+    "PictureUrl": "images/products/babybedding.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Blue Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 200,
+    "PictureUrl": "images/products/babybeddingimage2.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Black Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 200,
+    "PictureUrl": "images/products/babybeddingimage3.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Purple Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 200,
+    "PictureUrl": "images/products/babybeddingimage4.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus White Beds",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
     "Price": 250,
-    "PictureUrl": "images/products/babybedding.jpeg",
-    "ProductTypeId": 4,
-    "ProductBrandId": 8
+    "PictureUrl": "images/products/babybeddingimage4.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Pink Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 250,
+    "PictureUrl": "images/products/babybeddingimage4.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Maroon Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 250,
+    "PictureUrl": "images/products/babybeddingimage4.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
+  },
+  {
+    "Name": "Alxesus Cyan Beds",
+    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Price": 250,
+    "PictureUrl": "images/products/babybeddingimage4.jpeg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 7
   }
 ]

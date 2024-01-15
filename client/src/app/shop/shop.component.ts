@@ -1,3 +1,5 @@
+/* The ShopComponent class is responsible for managing the products, brands, types, and search
+functionality in the shop page of an Angular application. */
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Brand } from '../shared/models/brand';
 import { Product } from '../shared/models/product';
